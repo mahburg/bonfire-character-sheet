@@ -1,0 +1,329 @@
+name,size,complex,source,local,nearby,regional,distant
+Tools~Adventuring
+Alm Script~/Favor,S,4,24,36,62.2,74.6,89.6
+Blanket~Travel,S,3,4.5,6.8,11.7,14,16.8
+Chalk~4~Box of 20",S,4,0.1,0.2,0.3,0.3,0.4
+Fire Starter (flint Rock and Steel Rod),S,1,0.6,0.9,1.6,1.9,2.2
+Grapnel Hook~Four Hooks,S,2,16,24,41.5,49.8,59.7
+Rations~Person~Day,S,2,2.5,3.8,6.5,7.8,9.3
+Lamp~Pt. Tank,S,2,7,10.5,18.1,21.8,26.1
+Lamp Oil,S,4,2,3,5.2,6.2,7.5
+Lock~with key,S,4,100,150,259.2,311,373.2
+Lock Picks~Set of Six,S,4,12,18,31.1,37.3,44.8
+Pry Bar~15"~Pry Head and Claw Head,M,3,12,18,39.5,51.4,66.8
+Sharpening Stone~3",S,1,0.8,1.2,2.1,2.5,3
+Spike~12",S,2,1.3,2,3.4,4,4.9
+Spyglass~With Tubes,S,6,20,30,51.8,62.2,74.6
+Stake~Anti-Vampire~8",S,1,0.2,0.3,0.5,0.6,0.7
+Tent~1 Person,M,2,5,7.5,16.5,21.4,27.8
+Tent~2 Person,L,2,12,18,49.4,69.1,96.8
+Tent~4 Person,L,2,25,37.5,102.9,144.1,201.7
+Torch,S,2,0.4,0.6,1,1.2,1.5
+
+
+Tools~General
+
+Astrolabe,M,6,60,90,197.7,257,334.2
+Book~Parchment W/ Leather Cover~24 Pages,S,4,30,45,77.8,93.3,112
+Cage~Wire~Rabbit Trap,M,3,16,24,52.7,68.5,89.1
+Fishing Pole~Cane With Line and Hook,S,2,1.2,1.8,3.1,3.7,4.5
+Leash~12 Ft,S,3,1,1.5,2.6,3.1,3.7
+Magnifying Glass~With Handle (3"d),S,6,12,18,31.1,37.3,44.8
+Needle~Quill,T,2,0.1,0.2,0.2,0.2,0.2
+Scale~Balance~3" Disks,M,3,30,45,98.9,128.5,167.1
+Tack~¾",D,2,0.1,0.2,0.2,0.2,0.2
+
+Tools~Trade
+
+Auger,M,2,15,22.5,49.4,64.3,83.5
+Axe,M,3,12,18,39.5,51.4,66.8
+Bear Trap,L,3,40,60,164.6,230.5,322.7
+Chisel,S,2,3,4.5,7.8,9.3,11.2
+Cleaver,S,3,5,7.5,13,15.6,18.7
+Hammer,S,2,5,7.5,13,15.6,18.7
+Hatchet,M,2,4,6,13.2,17.1,22.3
+Hoe,M,3,6,9,19.8,25.7,33.4
+Mallet,S,2,2.5,3.8,6.5,7.8,9.3
+Nail~3",S,3,1,1.5,2.6,3.1,3.7
+Nail~Horseshoe (28),S,2,2.2,3.3,5.7,6.8,8.2
+Pick~Mining,M,2,20,30,65.9,85.7,111.4
+Pitch Fork,M,3,7,10.5,23.1,30,39
+Scissors,S,3,8,12,20.7,24.9,29.9
+Shears,M,3,9,13.5,29.7,38.6,50.1
+Shovel,M,2,10,15,33,42.8,55.7
+Sickle,M,3,9,13.5,29.7,38.6,50.1
+Tongs,S,3,5,7.5,13,15.6,18.7
+Trowel,S,2,4.5,6.8,11.7,14,16.8
+
+Weapons~Axes
+
+Bardiche,L,3,120,180,493.9,691.5,968.1
+Battle Axe,M,2,90,135,296.6,385.6,501.2
+Dane Axe,H,3,180,270,911.3,1366.9,2050.3
+Handaxe,S,2,12,18,31.1,37.3,44.8
+Horsemans Pick,M,4,105,157.5,346,449.8,584.8
+Lochaber Axe,L,3,117,175.5,481.6,674.2,943.9
+
+Weapons~Polearms
+
+Ahlspiess,L,2,17,25.5,70,98,137.1
+Bill,L,2,17,25.5,70,98,137.1
+Glaive,L,3,35,52.5,144.1,201.7,282.4
+Guisarme,L,2,22,33,90.6,126.8,177.5
+Halberd,L,4,42,63,172.9,242,338.8
+Lance,L,1,45,67.5,185.2,259.3,363
+Lucerne,L,4,37,55.5,152.3,213.2,298.5
+Military Fork,L,2,19,28.5,78.2,109.5,153.3
+Planson,S,1,10,15,25.9,31.1,37.3
+Pike,H,1,20,30,101.3,151.9,227.8
+Ranseur,L,2,33,49.5,135.8,190.2,266.2
+Short Spear,M,1,16,24,52.7,68.5,89.1
+Sovnya,L,2,32,48,131.7,184.4,258.2
+Voulge,L,2,27,40.5,111.1,155.6,217.8
+War-scythe,L,2,16,24,65.9,92.2,129.1
+
+Weapons~Sidearms
+
+Bludgeon,S,1,8,12,20.7,24.9,29.9
+Cinquedea,S,4,15,22.5,38.9,46.7,56
+Dagger,S,3,12,18,31.1,37.3,44.8
+Knife,S,2,10,15,25.9,31.1,37.3
+Stiletto,S,4,17,25.5,44.1,52.9,63.5
+Dusack,S,4,49,73.5,127,152.4,182.9
+Katzbalger,S,4,55,82.5,142.6,171.1,205.3
+Scourge,M,1,10,15,33,42.8,55.7
+
+Weapons~Swords
+
+Arming Sword,M,3,70,105,230.7,299.9,389.9
+Court Sword,S,4,63,94.5,163.3,196,235.1
+Estoc,M,4,78,117,257,334.2,434.4
+Executioner's Sword,H,5,250,375,1265.6,1898.4,2847.7
+Falchion,M,4,80,120,263.6,342.7,445.6
+Koncerz,M,4,83,124.5,273.5,355.6,462.3
+Longsword,M,3,75,112.5,247.2,321.3,417.7
+Messer,M,3,68,102,224.1,291.3,378.7
+Rapier,M,4,80,120,263.6,342.7,445.6
+Sabre,M,3,78,117,257,334.2,434.4
+Schaivona,S,4,60,90,155.5,186.6,223.9
+Zweihander,L,5,130,195,535.1,749.1,1048.8
+
+Weapons~Trauma
+
+Bec De Corbin,L,4,75,112.5,308.7,432.2,605.1
+Brass Knuckles,S,4,10,15,25.9,31.1,37.3
+Club,M,1,5,7.5,16.5,21.4,27.8
+Mace,M,4,48,72,158.2,205.6,267.3
+Maul,L,3,35,52.5,144.1,201.7,282.4
+Goedendag,L,3,24,36,98.8,138.3,193.6
+Great Hammer,H,5,200,300,1012.5,1518.8,2278.1
+Peasant's Flail,L,2,20,30,82.3,115.2,161.3
+Quarterstaff,L,1,8,12,32.9,46.1,64.5
+War Flail,M,4,50,75,164.8,214.2,278.5
+War Hammer,M,4,83,124.5,273.5,355.6,462.3
+
+Weapons~Ranged
+
+Bellybow,L,4,175,262.5,720.3,1008.4,1411.8
+Composite Bow,M,4,45,67.5,148.3,192.8,250.6
+Crossbow,L,5,75,112.5,308.7,432.2,605.1
+Fire Lance,L,6,52,78,214,299.6,419.5
+Hakenbuchse,L,6,235,352.5,967.3,1354.2,1895.8
+Handgonne,L,6,110,165,452.8,633.9,887.4
+Javelin,M,1,8,12,26.4,34.3,44.6
+Latchet Crossbow,M,3,50,75,164.8,214.2,278.5
+Longbow,L,3,60,90,247,345.7,484
+Molotov Cocktail,S,2,15,22.5,38.9,46.7,56
+Sling,S,1,5,7.5,13,15.6,18.7
+Throwing Axe,S,2,12,18,31.1,37.3,44.8
+Throwing Knife,S,2,10,15,25.9,31.1,37.3
+Warbow,L,4,255,382.5,1049.6,1469.4,2057.2
+
+Ammunition
+
+Arrow~Composite Bow (doz),S,1,12,18,31.1,37.3,44.8
+Arrow~Longbow (doz),S,1,14.4,21.6,37.3,44.8,53.7
+Arrow~Warbow (doz),S,1,16.8,25.2,43.5,52.3,62.7
+Blackpowder & Bullet (per doz shot),S,6,26,39,67.4,80.9,97
+Bolt~Bellybow (doz),S,1,15,22.5,38.9,46.7,56
+Bolt~Crossbow (doz),S,1,12,18,31.1,37.3,44.8
+Bowstring,S,3,0.5,0.8,1.3,1.6,1.9
+
+Shields
+
+Buckler,S,4,40,60,103.7,124.4,149.3
+Clothe,S,1,*,*,*,*,*
+Figure Eight,M,2,60,90,197.7,257,334.2
+Heater,M,3,70,105,230.7,299.9,389.9
+Hoplon,M,2,45,67.5,148.3,192.8,250.6
+Kite,L,3,110,165,452.8,633.9,887.4
+Pavise,L,3,135,202.5,555.7,777.9,1089.1
+Round,M,2,95,142.5,313.1,407,529.1
+Tower,L,3,100,150,411.6,576.2,806.7
+
+Cord~Hemp~1/2" (60#)~50 Ft~Wt.,S,2,8,12,20.7,24.9,29.9
+Fabric~Cotton (sq.yard),S,3,4,6,10.4,12.4,14.9
+Rope~Cotton~1/2" (150#)~50 Ft,M,3,24,36,79.1,102.8,133.7
+Rope~Cotton~1" (1200#)~50 Ft,M,2,90,135,296.6,385.6,501.2
+Thread~Linen,S,2,2.5,3.8,6.5,7.8,9.3
+Yarn~Cotton,S,2,8,12,20.7,24.9,29.9
+
+Musical Instruments
+
+Adufe,S,4,5.3,7.9,13.7,16.5,19.8
+Bagpipes,M,3,94.9,142.4,312.7,406.6,528.5
+Bladder Pipe,S,3,35,52.5,90.7,108.9,130.6
+Citole,M,4,50,75,164.8,214.2,278.5
+Crumhorn,S,2,25,37.5,64.8,77.8,93.3
+Dulcimer,L,4,70,105,288.1,403.4,564.7
+Fiddle,M,4,80,120,263.6,342.7,445.6
+Frame Drum,S,2,3,4.5,7.8,9.3,11.2
+Gittern,S,4,75,112.5,194.4,233.3,279.9
+Glockenspiel,L,5,7,10.5,28.8,40.3,56.5
+Guitarra,M,4,35,52.5,115.3,149.9,194.9
+Harp,M,4,40,60,131.8,171.4,222.8
+Hurdy-Gurdy,L,5,100,150,411.6,576.2,806.7
+Lute,M,4,95,142.5,313.1,407,529.1
+Mandolin,M,4,60,90,197.7,257,334.2
+Naqareh,S,3,18.7,28,48.5,58.2,69.8
+Oud,L,4,42.5,63.8,174.9,244.9,342.9
+Psalterium,L,4,200,300,823.2,1152.5,1613.5
+Rebec,M,4,42.5,63.8,140.1,182.1,236.7
+Recorder,S,3,5,7.5,13,15.6,18.7
+Sackbut,M,4,41.2,61.8,135.8,176.5,229.5
+Shawm,L,3,34.5,51.8,142,198.8,278.3
+String Drum,M,2,27,40.5,89,115.7,150.4
+Tabor Drum,M,2,6.5,9.8,21.4,27.8,36.2
+Tabor Pipe,S,3,26.5,39.8,68.7,82.4,98.9
+Timbrel,S,3,5.5,8.3,14.3,17.1,20.5
+Viol,M,4,100,150,329.6,428.4,556.9
+Zampogna,L,3,75,112.5,308.7,432.2,605.1
+
+Poisons & Toxins
+
+Blacknessel,T,5,110,165,219.6,241.6,265.7
+Blue Glory,T,5,70,105,139.8,153.7,169.1
+Bondweed,T,5,55,82.5,109.8,120.8,132.9
+Griffin Hair,T,5,40,60,79.9,87.8,96.6
+Lylullin,T,5,105,157.5,209.6,230.6,253.7
+Maidenscap,T,5,135,202.5,269.5,296.5,326.1
+Palm of St Germain,T,5,60,90,119.8,131.8,144.9
+Tears of Sicyon,T,5,115,172.5,229.6,252.6,277.8
+Wolfsbane,T,5,75,112.5,149.7,164.7,181.2
+
+Clothing
+
+Belt~Leather,S,2,1,1.5,2.6,3.1,3.7
+Boots~Leather,S,2,12,18,31.1,37.3,44.8
+Breeches,S,2,12,18,31.1,37.3,44.8
+Cloak,M,1,3,4.5,9.9,12.9,16.7
+Coat~Long,M,3,30,45,98.9,128.5,167.1
+Coat~Leather,M,3,45,67.5,148.3,192.8,250.6
+Dress,S,2,18,27,46.7,56,67.2
+Gauntlets,S,4,35,52.5,90.7,108.9,130.6
+Gloves,S,2,5,7.5,13,15.6,18.7
+Hat,S,2,4,6,10.4,12.4,14.9
+Jacket~Leather,S,3,33,49.5,85.5,102.6,123.2
+Kilt,S,2,18,27,46.7,56,67.2
+Sandals,S,1,4,6,10.4,12.4,14.9
+Shirt,S,1,12.5,18.8,32.4,38.9,46.7
+Shoes~Leather,S,3,7,10.5,18.1,21.8,26.1
+Socks,S,1,1.2,1.8,3.1,3.7,4.5
+Sweater,S,1,12,18,31.1,37.3,44.8
+Vest,S,1,9,13.5,23.3,28,33.6
+
+Clothing~Accessories
+
+Button,D,1,0.3,0.4,0.5,0.5,0.6
+Collar~Dog,S,2,0.8,1.2,2.1,2.5,3
+Handkerchief~1 Ft Sq.,S,3,0.5,0.8,1.3,1.6,1.9
+Horse Shoe,M,2,3,4.5,9.9,12.9,16.7
+Saddle,L,3,75,112.5,308.7,432.2,605.1
+Scarf~4ft,S,3,5.5,8.3,14.3,17.1,20.5
+Staff~Walking,M,1,2,3,6.6,8.6,11.1
+
+Containers~Heavy
+
+Barrel~15 Gallon~Water Tight,L,3,9,13.5,37,51.9,72.6
+Barrel~20 Gallon~Water Tight,L,3,11,16.5,45.3,63.4,88.7
+Basket~Wicker~9"dx10"h,M,1,4,6,13.2,17.1,22.3
+Basket~Wicker~Water Tight Gum~9"dx10"h,M,1,7,10.5,23.1,30,39
+Basket~Straw~Plaited~6"dx6"h,M,1,2,3,6.6,8.6,11.1
+Basket~Wicker~Handle~15"x8"x6"h,M,1,5,7.5,16.5,21.4,27.8
+Bottle~Glass,S,5,0.4,0.6,1,1.2,1.5
+Bucket~2 Gallon~Hemp Handle,M,3,3,4.5,9.9,12.9,16.7
+Cart~Donkey/pony~Wooden,H,3,40,60,202.5,303.8,455.6
+Cart~Push~Wooden~One-axle~Small,H,3,25,37.5,126.6,189.8,284.8
+Cask~2 Gallon~Water Tight,M,3,6,9,19.8,25.7,33.4
+Flask~Glass~Pint,S,4,0.7,1,1.8,2.2,2.6
+Jug~Earthenware~1 Gal.,M,3,4,6,13.2,17.1,22.3
+Pot~Earthenware~1gal.,S,2,1.3,2,3.4,4,4.9
+Saddlebags~Leather,M,3,10,15,33,42.8,55.7
+Ship~Merchant~Ocean Going,G,4,75000,112500,460800,737280,1179648
+Wagon~Cargo,H,4,1200,1800,6075,9112.5,13668.8
+Containers~Personal
+Name,Carry Bonus,Size,Complex,Source,Local,Nearby,Regional,Distant
+Backpack~Leather~Small,+M,S,3,9,13.5,23.3,28,33.6
+Backpack~Leather~Medium,+2M,S,3,10,15,25.9,31.1,37.3
+Backpack~Leather~Large,+L,S,3,15,22.5,38.9,46.7,56
+Bag~Small,+2S,S,2,5,7.5,13,15.6,18.7
+Bag~Medium,+M,S,2,6.5,9.8,16.8,20.2,24.3
+Canteen~quart,*,S,2,2,3,5.2,6.2,7.5
+Coin Purse~3"x4",*,S,2,0.4,0.6,1,1.2,1.5
+Pouch~Belt~Small,+S,S,2,0.5,0.8,1.3,1.6,1.9
+Pouch~Belt~Medium,+2S,S,2,1.2,1.8,3.1,3.7,4.5
+Quiver~12 Cap,*,M,2,2.5,3.8,8.2,10.7,13.9
+Quiver~Javelin~8 Cap,*,L,2,2.5,3.8,10.3,14.4,20.2
+Sheathe~Small,*,S,3,2.5,3.8,6.5,7.8,9.3
+Sheathe~Medium,*,S,3,5,7.5,13,15.6,18.7
+Sheathe~Large,*,S,3,10,15,25.9,31.1,37.3
+Sheathe~Huge,*,S,3,15,22.5,38.9,46.7,56
+Scroll Case~12 cap,*,S,3,6,9,15.6,18.7,22.4
+Waterskin~Gallon,*,S,3,5,7.5,13,15.6,18.7
+Waterskin~Half Gallon,*,S,3,3,4.5,7.8,9.3,11.2
+
+Armor
+
+Banded Mail,M,4,335,502.5,1104,1435.2,1865.7
+Brigandine,M,5,650,975,2142.1,2784.7,3620.1
+Buff Coat,S,3,130,195,337,404.4,485.2
+Breastplate,M,4,200,300,659.1,856.8,1113.9
+Chainmail,M,4,390,585,1285.2,1670.8,2172.1
+Coat of Plates,M,4,190,285,626.1,814,1058.2
+Gambeson,S,3,90,135,233.3,279.9,335.9
+Lamellar,M,5,370,555,1219.3,1585.1,2060.7
+Leather,S,3,190,285,492.5,591,709.2
+Full Plate,L,6,2125,3187.5,8746.5,12245.1,17143.1
+Plated Mail,L,6,1140,1710,4692.2,6569.1,9196.8
+Ringmail,M,4,350,525,1153.4,1499.5,1949.3
+Scale,L,6,1075,1612.5,4424.7,6194.6,8672.4
+Splintmail,M,4,275,412.5,906.3,1178.1,1531.6
+
+Animals~Livestock & Pets
+
+Chicken,1,0.55,0.8,1.8,2.4,3.1
+Dog~Guard~Trained,3,45,67.5,148.3,192.8,250.6
+Dog~Hunting~Trained,2,35,52.5,115.3,149.9,194.9
+Dog~War~Trained,3,65,97.5,214.2,278.5,362
+Donkey,2,70,105,230.7,299.9,389.9
+Goat,2,5,7.5,16.5,21.4,27.8
+Lamb,2,7,10.5,23.1,30,39
+Lobster~Live,2,0.1,0.2,0.3,0.4,0.6
+Ox,2,120,180,395.5,514.1,668.3
+Rabbit,1,1,1.5,3.3,4.3,5.6
+Steer,2,60,90,197.7,257,334.2
+
+Animals~Mounts
+
+Camel~Bachrian,2,180,270,593.2,771.1,1002.5
+Camel~Dromedary,2,180,270,593.2,771.1,1002.5
+Goat~Riding,2,125,187.5,411.9,535.5,696.2
+Horse~Courser,3,250,375,823.9,1071,1392.3
+Horse~Destrier,3,350,525,1153.4,1499.5,1949.3
+Horse~Palfrey,3,175,262.5,576.7,749.7,974.6
+Horse~Rounsey,3,100,150,329.6,428.4,556.9
+Horse~Sumpter,3,75,112.5,247.2,321.3,417.7
+Lizard~Pack,3,150,225,494.3,642.6,835.4
+Lizard~Riding,3,250,375,823.9,1071,1392.3
+Mule,2,90,135,296.6,385.6,501.2
+Reindeer,2,175,262.5,576.7,749.7,974.6
