@@ -236,11 +236,27 @@ export const testCharacter: Character = {
     },
     {
       name: 'Hand-axe',
-      size: null,
+      size: 'S',
       type: 'weapon',
+      damage: '1d6!',
+      damageType: 'slashing',
+      measure: 1,
       equipped: false,
       category: 'weapons',
       subCategory: 'axes',
+      wear: 0,
+    },
+    {
+      name: 'Club',
+      size: 'M',
+      type: 'weapon',
+      damage: '1d10!',
+      damageType: 'crushing',
+      measure: 1.5,
+      equipped: false,
+      category: 'weapons',
+      subCategory: 'trauma',
+      wear: 0,
     },
   ],
 
@@ -272,5 +288,8 @@ export const testCharacter: Character = {
   combatSkills: [
     { name: 'Armor Fatigue', rank: 2 },
     { name: 'Sword Attack', rank: 5 },
+    { name: 'Sword Damage', rank: 5 },
+    { name: 'Sword Recovery', rank: 5 },
+    { name: 'Sword Parry', rank: 5 },
   ],
 };

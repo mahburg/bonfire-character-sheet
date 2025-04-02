@@ -27,8 +27,27 @@ export interface MartialSkill {
   rank: number;
 }
 
+type weaponRange = 'melee' | 'ranged';
+type meleeSubTypes = 'swords' | 'axes' | 'polearms' | 'sidearms' | 'trauma';
 export interface AdvancedMartialSkill extends MartialSkill {
   name: string;
+  weaponRange?: weaponRange;
+  damageType?: string;
+  weaponSubType?: string;
+}
+
+export interface MeleeMartialSkill extends AdvancedMartialSkill {
+  weaponRange: 'melee';
+  weaponSubType: meleeSubTypes;
+  damageType: 'crushing' | 'piercing' | 'slashing';
+}
+
+type rangedSubTypes = 'thrown' | 'mechanical' | 'firearms';
+
+export interface RangedMartialSkill extends AdvancedMartialSkill {
+  weaponRange: 'ranged';
+  weaponSubType: rangedSubTypes;
+  damageType: 'crushing' | 'piercing' | 'slashing';
 }
 
 export interface Wound {

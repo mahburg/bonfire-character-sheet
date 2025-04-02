@@ -42,7 +42,7 @@ function a11yProps(index: number) {
 
 export default function CharacterSheet() {
   // default character state from local
-  const [selectedTab, setSelectedTab] = useState(3);
+  const [selectedTab, setSelectedTab] = useState(0);
   const savedCharacter = localStorage.getItem('bonfire-character');
   const defaultCharacter = savedCharacter
     ? JSON.parse(savedCharacter)
