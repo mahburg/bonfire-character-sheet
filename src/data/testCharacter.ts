@@ -261,16 +261,64 @@ export const testCharacter: Character = {
   ],
 
   // skill suites
-  athletics: { rank: 0, mod: -1 },
-  lore: { rank: 0, mod: -1 },
-  streetwise: { rank: 3, mod: -2 },
-  strategy: { rank: 4, mod: -2 },
-  survival: { rank: 0, mod: -2 },
-  trades: { rank: 2, mod: -1 },
-  weirdCraft: { rank: 0, mod: -2 },
+  athletics: {
+    name: 'athletics',
+    rank: 0,
+    mod: -1,
+    stats: ['Str', 'Con'],
+    suite: 'athletics',
+  },
+  lore: { name: 'lore', rank: 0, mod: -1, stats: ['Int'], suite: 'lore' },
+  streetwise: {
+    name: 'streetwise',
+    rank: 3,
+    mod: -2,
+    stats: ['Will', 'Pre'],
+    suite: 'streetwise',
+  },
+  strategy: {
+    name: 'strategy',
+    rank: 4,
+    mod: -2,
+    stats: ['Will', 'Pre'],
+    suite: 'strategy',
+  },
+  survival: {
+    name: 'survival',
+    rank: 0,
+    mod: -2,
+    stats: ['Con', 'Will'],
+    suite: 'survival',
+  },
+  trades: {
+    name: 'trades',
+    rank: 2,
+    mod: -1,
+    stats: ['Dex', 'Int'],
+    suite: 'trades',
+  },
+  weirdCraft: {
+    name: 'weirdCraft',
+    rank: 0,
+    mod: -2,
+    stats: ['Int', 'Will'],
+    suite: 'weirdCraft',
+  },
   advancedSkills: [
-    { name: 'Intuition', rank: 5, mod: -2 },
-    { name: 'Intimidation', rank: 2, mod: -2 },
+    {
+      name: 'Intuition',
+      rank: 5,
+      mod: -2,
+      suite: 'streetwise',
+      stats: ['Will'],
+    },
+    {
+      name: 'Initiative',
+      rank: 5,
+      mod: 1,
+      suite: 'streetwise',
+      stats: ['Pre'],
+    },
   ],
 
   // combat skills
@@ -286,10 +334,10 @@ export const testCharacter: Character = {
   recoveryMod: 0,
 
   combatSkills: [
-    { name: 'Armor Fatigue', rank: 2 },
-    { name: 'Sword Attack', rank: 5 },
-    { name: 'Sword Damage', rank: 5 },
-    { name: 'Sword Recovery', rank: 5 },
-    { name: 'Sword Parry', rank: 5 },
+    { name: 'Armor Fatigue', rank: 2, suite: 'armor' },
+    { name: 'Sword Attack', rank: 5, suite: 'melee' },
+    { name: 'Sword Damage', rank: 5, suite: 'melee' },
+    { name: 'Sword Recovery', rank: 5, suite: 'melee' },
+    { name: 'Sword Parry', rank: 5, suite: 'melee' },
   ],
 };

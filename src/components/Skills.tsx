@@ -1,7 +1,11 @@
 import { styled } from '@mui/material';
 import Section from './Section';
 // import TableSection from './TableSection';
-import { AdvancedSkill, Character, SkillSuite } from '../types/character';
+import {
+  AdvancedSkillStat,
+  Character,
+  SkillSuiteStat,
+} from '../types/character';
 import { characterSkillSuiteArray, statToMod } from '../logic/game';
 import { AgGridReact, CustomCellRendererProps } from 'ag-grid-react';
 import { tableTheme } from '../agGrid/theme';
@@ -32,13 +36,17 @@ const RollRenderer = (params: RollButtonProps) => {
 };
 
 export default function Skills({ character }: { character: Character }) {
-  const rollSkill = (skill: SkillSuite | AdvancedSkill) => {
+  const rollSkill = (skill: SkillSuiteStat | AdvancedSkillStat) => {
     console.log('Rolling skill:', skill);
     // Implement the logic to roll the skill here
-    const { rolls, total } = rollMod(20, skill.rank + skill.mod, true);
+    const { rolls, total } = rollMod(
+      20,
+      (skill?.rank ?? 0) + (skill?.mod ?? 0),
+      true
+    );
     console.log('Rolls:', rolls);
     console.log('Total:', total);
-  }
+  };
 
   return (
     <Section title="Skills" primary>
@@ -133,7 +141,7 @@ export default function Skills({ character }: { character: Character }) {
           }) ?? []
         }
       /> */}
-      <div style={{ height: '275px' }}>
+      <div style={{ height: 316 }}>
         <AgGridReact
           theme={tableTheme}
           gridOptions={gridOptions}
@@ -144,7 +152,7 @@ export default function Skills({ character }: { character: Character }) {
               flex: 2,
               cellStyle: { textAlign: 'left' },
             },
-            { field: 'cost' },
+            { field: 'baseCost' },
             { field: 'rank' },
             { field: 'mod' },
             {
@@ -158,7 +166,7 @@ export default function Skills({ character }: { character: Character }) {
           rowData={characterSkillSuiteArray(character)}
         />
       </div>
-      <div style={{ height: '100px' }}>
+      <div style={{ height: 35 + character.advancedSkills.length * 42 }}>
         <AgGridReact
           theme={tableTheme}
           gridOptions={gridOptions}
@@ -169,7 +177,7 @@ export default function Skills({ character }: { character: Character }) {
               flex: 2,
               cellStyle: { textAlign: 'left' },
             },
-            { field: 'cost' },
+            { field: 'baseCost' },
             { field: 'rank' },
             { field: 'mod' },
             {

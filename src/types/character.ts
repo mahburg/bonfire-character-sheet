@@ -10,16 +10,32 @@ export const characterClasses = [
 ];
 
 export interface SkillSuite {
-  cost?: number;
-  rank: number;
-  mod: number;
+  name: string;
+  baseCost?: number;
+  stats: string[];
+  suite: string;
 }
 
-export interface AdvancedSkill extends SkillSuite {
+export interface SkillSuiteStat extends SkillSuite {
+  rank: number;
+  mod?: number;
+}
+export interface AdvancedSkill {
   name: string;
-  cost?: number;
+  baseCost?: number;
+  stats: string[];
+  suite: string;
+}
+
+export interface AdvancedSkillStat extends SkillSuiteStat {
+  name: string;
+  baseCost?: number;
+  stats: string[];
+  suite: string;
   rank: number;
   mod: number;
+  value?: string;
+  description?: string;
 }
 
 export interface MartialSkill {
@@ -27,27 +43,41 @@ export interface MartialSkill {
   rank: number;
 }
 
-type weaponRange = 'melee' | 'ranged';
-type meleeSubTypes = 'swords' | 'axes' | 'polearms' | 'sidearms' | 'trauma';
+type suites = 'armor' | 'melee' | 'ranged' | 'shields' | 'unarmed';
+
+type meleeSubTypes =
+  | 'swords'
+  | 'axes'
+  | 'polearms'
+  | 'sidearms'
+  | 'trauma'
+  | null;
+type rangedSubTypes = 'thrown' | 'mechanical' | 'firearms' | null;
+
+export interface CombatSkillSuite {
+  name: string;
+  cost: number;
+  category: suites;
+}
+
 export interface AdvancedMartialSkill extends MartialSkill {
   name: string;
-  weaponRange?: weaponRange;
-  damageType?: string;
-  weaponSubType?: string;
+  suite: suites | null;
 }
 
-export interface MeleeMartialSkill extends AdvancedMartialSkill {
-  weaponRange: 'melee';
-  weaponSubType: meleeSubTypes;
-  damageType: 'crushing' | 'piercing' | 'slashing';
+type weaponSuites = 'melee' | 'ranged' | null;
+export interface WeaponSkill extends AdvancedMartialSkill {
+  weaponSubType: meleeSubTypes | rangedSubTypes | null;
+  suite: weaponSuites;
 }
 
-type rangedSubTypes = 'thrown' | 'mechanical' | 'firearms';
+export interface ArmorSkill extends AdvancedMartialSkill {
+  suite: 'armor';
+}
 
-export interface RangedMartialSkill extends AdvancedMartialSkill {
-  weaponRange: 'ranged';
-  weaponSubType: rangedSubTypes;
-  damageType: 'crushing' | 'piercing' | 'slashing';
+export interface ShieldSkill extends AdvancedMartialSkill {
+  shieldSubType: 'small' | 'medium' | 'large' | null;
+  suite: 'shields';
 }
 
 export interface Wound {
@@ -112,13 +142,13 @@ export interface Character {
   presence: number;
 
   // skills:
-  athletics: SkillSuite;
-  lore: SkillSuite;
-  streetwise: SkillSuite;
-  strategy: SkillSuite;
-  survival: SkillSuite;
-  trades: SkillSuite;
-  weirdCraft: SkillSuite;
+  athletics: SkillSuiteStat;
+  lore: SkillSuiteStat;
+  streetwise: SkillSuiteStat;
+  strategy: SkillSuiteStat;
+  survival: SkillSuiteStat;
+  trades: SkillSuiteStat;
+  weirdCraft: SkillSuiteStat;
 
   // native language
 
@@ -150,7 +180,7 @@ export interface Character {
   recoveryMod: number;
 
   // advanced skills:
-  advancedSkills: AdvancedSkill[];
+  advancedSkills: AdvancedSkillStat[];
 
   // combat skills:
   armor: MartialSkill;

@@ -1,9 +1,4 @@
-import {
-  AdvancedSkill,
-  Character,
-  SkillSuite,
-  Wound,
-} from '../types/character';
+import { Character, SkillSuiteStat, Wound } from '../types/character';
 import { GearSize, PersonalContainer } from '../types/gear';
 import { initialCapitalize } from '../utils';
 
@@ -204,17 +199,17 @@ const skillSuites = [
 
 export const characterSkillSuiteArray = (
   character: Character
-): AdvancedSkill[] => {
-  const output: AdvancedSkill[] = [];
+): SkillSuiteStat[] => {
+  const output: SkillSuiteStat[] = [];
+
   skillSuites.forEach((skill) => {
-    const skillObj: SkillSuite = (character[
+    const skillObj: SkillSuiteStat = (character[
       skill as keyof Character
-    ] as SkillSuite) || { cost: 0, rank: 0, mod: 0 };
+    ] as SkillSuiteStat) || { cost: 0, rank: 0, mod: 0 };
+
     output.push({
+      ...skillObj,
       name: initialCapitalize(skill),
-      cost: skillObj.cost,
-      rank: skillObj.rank,
-      mod: skillObj.mod,
     });
   });
 

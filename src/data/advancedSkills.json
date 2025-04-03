@@ -1,0 +1,434 @@
+ [
+  {
+    "skillName": "Athletics",
+    "baseCost": 30,
+    "stats": "Str/Con",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Climbing",
+    "baseCost": 7,
+    "stats": "Str",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Endurance",
+    "baseCost": 4,
+    "stats": "Con",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Escape Artist",
+    "baseCost": 7,
+    "stats": "Dex",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Jumping",
+    "baseCost": 5,
+    "stats": "Str",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Move Silently",
+    "baseCost": 9,
+    "stats": "Dex/Will",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Resistance (Poison/Disease)",
+    "baseCost": "5/1",
+    "stats": "Con",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Sport (Specific)",
+    "baseCost": 4,
+    "stats": "Str/Con",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Swimming",
+    "baseCost": 5,
+    "stats": "Str/Con",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Tumbling",
+    "baseCost": 7,
+    "stats": "Dex",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Vandalism",
+    "baseCost": 3,
+    "stats": "Str",
+    "suite": "athletics"
+  },
+  {
+    "skillName": "Lore",
+    "baseCost": 30,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Administration",
+    "baseCost": 7,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "History",
+    "baseCost": 6,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Language (Specific)",
+    "baseCost": 5,
+    "stats": "Int/Will",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Law (Culture)",
+    "baseCost": 5,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Literacy (Alphabet)",
+    "baseCost": 7,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Mathematics",
+    "baseCost": 9,
+    "stats": "Int/Will",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Medicine",
+    "baseCost": 8,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Monster Craft",
+    "baseCost": 8,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Religion (Cult)",
+    "baseCost": 4,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "World Craft",
+    "baseCost": 6,
+    "stats": "Int",
+    "suite": "lore"
+  },
+  {
+    "skillName": "Streetwise",
+    "baseCost": 30,
+    "stats": "Will/Pre",
+    "suite": ""
+  },
+  {
+    "skillName": "Current Affairs",
+    "baseCost": 5,
+    "stats": "Int",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Deception",
+    "baseCost": 8,
+    "stats": "Int/Pre",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Forgery",
+    "baseCost": 11,
+    "stats": "Dex/Will",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Gambling/Gaming",
+    "baseCost": 5,
+    "stats": "Int",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Intuition",
+    "baseCost": 5,
+    "stats": "Will",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Listening",
+    "baseCost": 6,
+    "stats": "Int",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Lock Picking",
+    "baseCost": 11,
+    "stats": "Dex/Int",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Sleight of Hand",
+    "baseCost": 7,
+    "stats": "Dex",
+    "suite": "streetwise"
+  },
+  {
+    "skillName": "Strategy",
+    "baseCost": 30,
+    "stats": "Will/Pre",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Combat Style (Style)",
+    "baseCost": 9,
+    "stats": "Con/Int",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Initiative",
+    "baseCost": 10,
+    "stats": "Dex/Will",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Leadership",
+    "baseCost": 6,
+    "stats": "Pre/Will",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Quarter Mastering",
+    "baseCost": 5,
+    "stats": "Int",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Recruiting",
+    "baseCost": 8,
+    "stats": "Will/Pre",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Riding",
+    "baseCost": 8,
+    "stats": "Dex/Will",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Signaling",
+    "baseCost": 4,
+    "stats": "Int",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Warfare",
+    "baseCost": 9,
+    "stats": "Int/Will/Pre",
+    "suite": "strategy"
+  },
+  {
+    "skillName": "Survival",
+    "baseCost": 30,
+    "stats": "Con/Will",
+    "suite": ""
+  },
+  {
+    "skillName": "Botany",
+    "baseCost": 7,
+    "stats": "Int",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Fire Building",
+    "baseCost": 5,
+    "stats": "Dex",
+    "suite": "survival"
+  },
+  {
+    "skillName": "First Aid",
+    "baseCost": 8,
+    "stats": "Dex/Int",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Handle Animal (Specific)",
+    "baseCost": 6,
+    "stats": "Pre",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Hiding",
+    "baseCost": 9,
+    "stats": "Dex/Will",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Hunting",
+    "baseCost": 7,
+    "stats": "Will",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Monster Craft",
+    "baseCost": 8,
+    "stats": "Int",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Navigation",
+    "baseCost": 7,
+    "stats": "Int",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Scavenging",
+    "baseCost": 4,
+    "stats": "Int",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Snaring",
+    "baseCost": 8,
+    "stats": "Int/Dex",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Use Rope",
+    "baseCost": 4,
+    "stats": "Dex",
+    "suite": "survival"
+  },
+  {
+    "skillName": "Trades",
+    "baseCost": 30,
+    "stats": "Dex/Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Appraisal",
+    "baseCost": 14,
+    "stats": "Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Articulation",
+    "baseCost": 5,
+    "stats": "Will/Pre",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Artistry (Specific)",
+    "baseCost": 8,
+    "stats": "Dex",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Cooking/Baking",
+    "baseCost": 5,
+    "stats": "Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Craft (Specific)",
+    "baseCost": 8,
+    "stats": "Dex/Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Leatherworking",
+    "baseCost": 7,
+    "stats": "Dex/Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Maintenance",
+    "baseCost": 6,
+    "stats": "Str/Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Metalworking",
+    "baseCost": 9,
+    "stats": "Str/Int",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Musician (Specific)",
+    "baseCost": 6,
+    "stats": "Dex/Pre",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Performance",
+    "baseCost": 5,
+    "stats": "Will/Pre",
+    "suite": "trades"
+  },
+  {
+    "skillName": "Weirdcraft",
+    "baseCost": 40,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Animism",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Calling",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Charm",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Glamour",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Hexing",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Investiture",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Occultism",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft"
+  },
+  {
+    "skillName": "Sortilege",
+    "baseCost": 12,
+    "stats": "Int/Will",
+    "suite": "wierdcraft\n"
+  }
+]

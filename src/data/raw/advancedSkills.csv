@@ -1,0 +1,73 @@
+skillName,baseCost,stats,suite
+Athletics,30,Str/Con,athletics
+Climbing,7,Str,athletics
+Endurance,4,Con,athletics
+Escape Artist,7,Dex,athletics
+Jumping,5,Str,athletics
+Move Silently,9,Dex/Will,athletics
+Resistance (Poison/Disease),5/1,Con,athletics
+Sport (Specific),4,Str/Con,athletics
+Swimming,5,Str/Con,athletics
+Tumbling,7,Dex,athletics
+Vandalism,3,Str,athletics
+Lore,30,Int,lore
+Administration,7,Int,lore
+History,6,Int,lore
+Language (Specific),5,Int/Will,lore
+Law (Culture),5,Int,lore
+Literacy (Alphabet),7,Int,lore
+Mathematics,9,Int/Will,lore
+Medicine,8,Int,lore
+Monster Craft,8,Int,lore
+Religion (Cult),4,Int,lore
+World Craft,6,Int,lore
+Streetwise,30,Will/Pre,
+Current Affairs,5,Int,streetwise
+Deception,8,Int/Pre,streetwise
+Forgery,11,Dex/Will,streetwise
+Gambling/Gaming,5,Int,streetwise
+Intuition,5,Will,streetwise
+Listening,6,Int,streetwise
+Lock Picking,11,Dex/Int,streetwise
+Sleight of Hand,7,Dex,streetwise
+Strategy,30,Will/Pre,strategy
+Combat Style (Style),9,Con/Int,strategy
+Initiative,10,Dex/Will,strategy
+Leadership,6,Pre/Will,strategy
+Quarter Mastering,5,Int,strategy
+Recruiting,8,Will/Pre,strategy
+Riding,8,Dex/Will,strategy
+Signaling,4,Int,strategy
+Warfare,9,Int/Will/Pre,strategy
+Survival,30,Con/Will,
+Botany,7,Int,survival
+Fire Building,5,Dex,survival
+First Aid,8,Dex/Int,survival
+Handle Animal (Specific),6,Pre,survival
+Hiding,9,Dex/Will,survival
+Hunting,7,Will,survival
+Monster Craft,8,Int,survival
+Navigation,7,Int,survival
+Scavenging,4,Int,survival
+Snaring,8,Int/Dex,survival
+Use Rope,4,Dex,survival
+Trades,30,Dex/Int,trades
+Appraisal,14,Int,trades
+Articulation,5,Will/Pre,trades
+Artistry (Specific),8,Dex,trades
+Cooking/Baking,5,Int,trades
+Craft (Specific),8,Dex/Int,trades
+Leatherworking,7,Dex/Int,trades
+Maintenance,6,Str/Int,trades
+Metalworking,9,Str/Int,trades
+Musician (Specific),6,Dex/Pre,trades
+Performance,5,Will/Pre,trades
+Weirdcraft,40,Int/Will,wierdcraft
+Animism,12,Int/Will,wierdcraft
+Calling,12,Int/Will,wierdcraft
+Charm,12,Int/Will,wierdcraft
+Glamour,12,Int/Will,wierdcraft
+Hexing,12,Int/Will,wierdcraft
+Investiture,12,Int/Will,wierdcraft
+Occultism,12,Int/Will,wierdcraft
+Sortilege,12,Int/Will,wierdcraft
