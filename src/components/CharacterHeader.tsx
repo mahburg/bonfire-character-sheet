@@ -1,23 +1,28 @@
-import { Button, Menu, MenuItem, styled } from '@mui/material';
+import { Button, Menu, MenuItem, Modal, styled } from '@mui/material';
 
 import { CharacterComponentProps } from '../types/common';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import { testCharacter } from '../data/testCharacter';
+import CreateCharacter from './CreateCharacter';
 
 export default function CharacterHeader({
   character,
   setCharacter,
 }: CharacterComponentProps) {
+  const [createModalOpen, setCreateModalOpen] = useState(true);
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+
   const open = Boolean(anchorEl);
+
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
     setAnchorEl(null);
   };
+
   return (
     <CharacterHeaderContainer className="flex">
       <div className="flex">
@@ -44,12 +49,15 @@ export default function CharacterHeader({
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
-        MenuListProps={{
-          'aria-labelledby': 'basic-button',
-        }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
+        <MenuItem
+          onClick={() => {
+            setCreateModalOpen(true);
+            handleClose();
+          }}
+        >
+          Create New Character
+        </MenuItem>
         <MenuItem
           onClick={() => {
             setCharacter(testCharacter);
@@ -59,6 +67,9 @@ export default function CharacterHeader({
           Reset Character Data
         </MenuItem>
       </Menu>
+      <Modal open={createModalOpen} onClose={() => setCreateModalOpen(false)}>
+        <CreateCharacter />
+      </Modal>
     </CharacterHeaderContainer>
   );
 }

@@ -2,13 +2,13 @@ import { useState } from 'react';
 import {
   applyHealingDaysToWounds,
   getTotalDamage,
-  getVitalityCategories,
 } from '../logic/game';
 import { CharacterComponentProps } from '../types/common';
 import Section from './Section';
 import { Category, WoundItem } from './StatComps';
 import { Button, styled } from '@mui/material';
 import { Add, Remove } from '@mui/icons-material';
+import { getVitalityCategories } from '../logic/characterLogic';
 
 export default function Vitality({
   character,

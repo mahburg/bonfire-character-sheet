@@ -153,7 +153,8 @@ export default function Skills({ character }: { character: Character }) {
               cellStyle: { textAlign: 'left' },
             },
             { field: 'baseCost' },
-            { field: 'rank' },
+            // render 0 as 'U' 
+            { field: 'rank', valueFormatter: (params) => (params.value === 0 ? 'U' : params.value) },
             { field: 'mod' },
             {
               headerName: 'Roll',

@@ -1,14 +1,5 @@
 import { Inventory } from './gear';
 
-// character classes
-export const characterClasses = [
-  'Expert',
-  'Fighter',
-  'Servant',
-  'Socialite',
-  'Weird-Adept',
-];
-
 export interface SkillSuite {
   name: string;
   baseCost?: number;

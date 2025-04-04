@@ -3,12 +3,12 @@ import { Alert, Button, Snackbar, styled } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 
-import { getNerveCategories } from '../logic/game';
 import { rollSingle } from '../logic/dice';
 import Section from './Section';
 import { useState } from 'react';
 import { CharacterComponentProps } from '../types/common';
 import { Category } from './StatComps';
+import { getNerveCategories } from '../logic/characterLogic';
 
 export default function StressNerve({
   character,

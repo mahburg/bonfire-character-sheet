@@ -113,29 +113,7 @@ export const sizeCountToTotalWeight = (
   return weightToSize(total);
 };
 
-export const getNerveCategories = (nerve: number) => {
-  const quarterRoundedUp = Math.ceil(nerve / 4);
-  const quarterRoundedDown = Math.floor(nerve / 4);
 
-  return {
-    unsure: [1, quarterRoundedUp],
-    tense: [quarterRoundedUp + 1, quarterRoundedDown * 2],
-    shaken: [quarterRoundedDown * 2 + 1, quarterRoundedDown * 3],
-    broken: [quarterRoundedDown * 3 + 1, nerve],
-  };
-};
-
-export const getVitalityCategories = (vitality: number) => {
-  const quarterRoundedUp = Math.ceil(vitality / 4);
-  const quarterRoundedDown = Math.floor(vitality / 4);
-
-  return {
-    hurt: [1, quarterRoundedUp],
-    bloodied: [quarterRoundedUp + 1, quarterRoundedDown * 2],
-    wounded: [quarterRoundedDown * 2 + 1, quarterRoundedDown * 3],
-    critical: [quarterRoundedDown * 3 + 1, vitality],
-  };
-};
 
 export const getTotalDamage = (character: Character): number => {
   return character.wounds.reduce((acc, wound) => acc + wound.damage, 0);

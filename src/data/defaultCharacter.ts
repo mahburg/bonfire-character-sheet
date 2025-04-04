@@ -1,0 +1,77 @@
+import { Character } from '../types/character';
+import { skillSuitesObject } from './advancedSkills';
+
+export const defaultCharacter: Character = {
+  player: '',
+  name: '',
+  ancestry: '',
+  class: '',
+  subclass: '',
+  level: 1,
+  crpUnspent: 0,
+  crpSpent: 0,
+  integrity: 0,
+  gritDice: 0,
+  favorMax: 0,
+  anointed: false,
+  nerve: 0,
+  nerveDie: 0,
+  nerveMinDie: 0,
+  stress: 0,
+  relaxation: 0,
+  vitality: 0,
+  vitalityDie: 0,
+  vitalityMinDie: 0,
+  traumaThreshold: 0,
+  wounds: [],
+
+  strength: 10,
+  dexterity: 10,
+  constitution: 10,
+  intellect: 10,
+  willpower: 10,
+  presence: 10,
+
+  baseMovement: 2.5,
+
+  goals: [],
+  convictions: [],
+  allies: [],
+  inventory: [],
+
+  copperCoins: 0,
+  silverCoins: 0,
+  goldCoins: 0,
+  platinumCoins: 0,
+
+  athletics: { ...skillSuitesObject.athletics, rank: 0, mod: 0 },
+  lore: { ...skillSuitesObject.lore, rank: 0, mod: 0 },
+  survival: { ...skillSuitesObject.survival, rank: 0, mod: 0 },
+  streetwise: { ...skillSuitesObject.streetwise, rank: 0, mod: 0 },
+  strategy: { ...skillSuitesObject.strategy, rank: 0, mod: 0 },
+  trades: { ...skillSuitesObject.trades, rank: 0, mod: 0 },
+  weirdCraft: { ...skillSuitesObject.weirdCraft, rank: 0, mod: 0 },
+
+  // combat skills
+  armor: { rank: 1 },
+  meleeWeapons: { rank: 4 },
+  rangedWeapons: { rank: 0 },
+  shields: { rank: 0 },
+  unarmed: { rank: 0 },
+
+  attackMod: 0,
+  defenseMod: 0,
+  damageMod: 0,
+  recoveryMod: 0,
+
+  combatSkills: [],
+  relationships: [],
+  flaws: [],
+  descriptions: [],
+  culturalStrength: '',
+  reputations: [],
+  contactPoints: 0,
+  advancedSkills: [],
+  classAncestralAbilitiesAndTrainings: [],
+  burdensInjuriesAndDrawbacks: [],
+};

@@ -45,6 +45,14 @@ export const skillSuites: SkillSuite[] = [
   },
 ];
 
+export const skillSuitesObject: Record<string, SkillSuite> = skillSuites.reduce(
+  (acc, skillSuite) => {
+    acc[skillSuite.suite] = skillSuite;
+    return acc;
+  },
+  {} as Record<string, SkillSuite>
+);
+
 export const advancedSkills: AdvancedSkill[] = [
   {
     name: 'Climbing',
